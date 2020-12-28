@@ -1,0 +1,23 @@
+<br>
+<label>Current Program:   </label>
+
+<matInput>
+    <input [value]="program" (input)="program = $event.target.value">    
+</matInput>
+
+<br><br>
+
+<p *ngIf=" ( program | uppercase) === 'COMPUTER PROGRAMMING'; else unrecognised">Program Enrolled</p>
+
+<ng-template #unrecognised>
+    <p>Not Recognised</p>
+</ng-template>
+
+<hr>
+
+<p [innerHTML]="myLabel"></p><br>
+
+<matInput>
+    <input type="button" value="Update Exam Message" (click)="currentExamDate()">
+</matInput>
+<br><br>

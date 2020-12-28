@@ -1,0 +1,18 @@
+{ 
+	"final2020":  
+	{ "courseTitle": "SYST24444 Final Exam",
+		"studentName" : "Willem Wantenaar",
+		"studentLogin" : "wantenaw"
+	},
+	"finalQuiz": [
+		{	"question": "NPM Definition?", 
+			"answer": "Node Package Manager"
+		},
+		{	"question": "VSC Definition?", 
+			"answer": "Visual Studio Code"
+		},
+		{	"question": "NG relates to?", 
+			"answer": "Angular"
+		}		
+	]
+}

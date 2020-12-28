@@ -1,0 +1,14 @@
+
+<app-wantenaw-header></app-wantenaw-header>
+
+<mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4" [ngStyle]="{textAlign: 'center'}">
+    
+    <mat-tab label="wantenaw">
+        <app-wantenaw-tab1></app-wantenaw-tab1>
+    </mat-tab>
+
+    <mat-tab label="wantenaw">
+        <app-wantenaw-tab2 [final2020]='final' [finalQuiz]='quiz'></app-wantenaw-tab2>
+    </mat-tab>
+
+</mat-tab-group>
